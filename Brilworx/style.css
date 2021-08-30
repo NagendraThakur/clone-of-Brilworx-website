@@ -1,0 +1,230 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+.navBar
+{
+    padding: 20px 0px 20px 0px;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FCD750;
+}
+
+.logo
+{
+    margin-left: 200px;
+}
+
+.navBarList
+{
+    margin-right: 200px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navBarList li:last-child
+{
+    margin-right: 0px;
+}
+
+.navBarItem
+{
+    font-weight: 400;
+    font-size: 18px;
+    text-decoration: none;
+    margin-right: 40px;
+    color: #2D2C4C;
+    transition: 0.5s;
+}
+
+.navBarActive
+{
+    transition: 0.5s;
+    text-decoration: underline;
+}
+
+.navBarOnHover
+{
+    transition: 0.5s;
+    color: #89CFF0;
+}
+
+.mainContent
+{
+    border: 2px solid #FCD750;
+    background-color: #FCD750;
+}
+
+.introduction
+{
+    margin: 100px 200px 0px 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.welcomeHeading
+{
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    padding: 0px 5px 0px 5px;
+    font-weight: 200;
+    font-size: 20px;
+    color: white;
+    background-color: #2D2C4C;;
+    width: 260px;
+}
+
+.mainHeading
+{
+    text-transform: uppercase;
+    font-weight: 200;
+    font-size: 100px;
+    color: #2D2C4C;
+}
+
+.services
+{
+    color: #2D2C4C;
+    font-size: 25px;
+    line-height: 1.5;
+}
+
+.nigPic
+{
+    width: 400px;
+    height: 450px;
+}
+
+.works
+{
+    margin: 100px 200px 0px 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 125px;
+}
+
+.work
+{
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+}
+
+.workImg
+{
+    margin-bottom: 30px;
+    height: 70px;
+    width: 70px;
+}
+
+.workHeading
+{
+    font-size: 16px;
+    font-weight: 200;
+    color: #20A5E6;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.workDesc
+{
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+.work a
+{
+    text-decoration: none;
+    color: white;
+}
+
+.button
+{
+    display: flex;
+    align-items: center;
+    padding: 7px 10px;
+    border: 2px solid #20A5E6;
+    border-radius: 7%;
+    background-color: #20A5E6;
+    width: 140px;
+}
+
+.postBtn, .contactBtn
+{
+    margin-top: 24px;
+}
+
+.button .btnHeading
+{
+    font-weight: 200;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.serviceDiv
+{
+    margin: 0px 200px;
+    padding: 150px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.serviceInfo
+{
+    display: flex;
+    flex-direction: column;
+}
+.serviceImg
+{
+    height: 250px;
+    width: 250px;
+}
+
+.serviceTitle
+{
+    background-color: black;
+    color: white;
+    width: 140px;
+    padding: 0px 5px;
+    text-transform: uppercase;
+    font-weight: 200;
+    font-size: 17px;
+}
+
+.serviceHeading
+{
+    margin-top: 20px;
+    font-size: 70px;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+.serviceDesc
+{
+    font-size: 25px;
+    margin-top: 15px;
+}
+
+.utilitiesDiv
+{
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+}
+
+.utilityDiv
+{
+    width: 225px;
+}
